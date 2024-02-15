@@ -1,1 +1,7 @@
-# portifolio-1
+# portifolio - web designer
+
+## TAREFAS
+- [ ] Header
+- [ ] Apresentação
+- [ ] Projetos
+- [ ] conhecimentos
