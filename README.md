@@ -2,6 +2,8 @@
 
 ## TAREFAS
 - [ ] Header
+    - [x]HTML
+    - [ ]CSS
 - [ ] Apresentação
 - [ ] Projetos
 - [ ] conhecimentos
