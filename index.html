@@ -6,43 +6,125 @@
     <title>Portifólio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 
+    <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
 
-<header>
+    <header>
+    
+     <h1>Portfólio Pedro Salles</h1>
+    <h2> Web Developer</h2>
+    
+    </header>
+    
+    <section id="secao-apresentacao">
+    
+        <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-693134468.jpg" alt="Foto do Tom Cruise, Vulgo Mancha verde till i die">
+        <div>
+    
+         <h2>Um cara comum</h2>
+        <p> Thomas Cruise Mapother IV é um ator e produtor de cinema norte-americano. Em 2007 foi listado pela revista Forbes como a celebridade mais popular de 2006, venceu três Globos de Ouro e foi indicado quatro vezes ao Oscar e é responsável pelo Estúdio Cinematográfico United Artists fundado por Charlie Chaplin, torcedor fanatico do Palmeiras.</p>
+        </div>
+    
+    </section>
+    
+    <!--Comandos Html basico 
+        <span>Textto</span>
+    
+    <ul>
+        <li>sdfd</li>
+        <li>asdfgffg</li>
+        <li>asdfd</li>
+    </ul>
+    
+    <ol>
+        <li>APMD</li>
+        <li>BE</li>
+        <li>ce</li>
+    </ol> -->
+    
+    
+    
+    <section id="secao-projetos">
+        <ul>
+            <li>
+                <div class="card">
+                    <div class="image-wrapper">
+                        <img src="./assets/img/imageProject.jpg" alt="Tela de um programador">
+                    </div>
+                    <div class="card-text">
+                        <h2>Nome projeto</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quo similique dolorem, sunt molestias dignissimos?</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="image-wrapper">
+                        <img src="./assets/img/imageProject.jpg" alt="Tela de um programador">
+                    </div>
+                    <div class="card-text">
+                        <h2>Nome projeto2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quo similique dolorem, sunt molestias dignissimos?</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="image-wrapper">
+                        <img src="./assets/img/imageProject.jpg" alt="Tela de um programador">
+                    </div>
+                    <div class="card-text">
+                        <h2>Nome projeto3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quo similique dolorem, sunt molestias dignissimos?</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section id="secao-orcamento">
+        <h2>Faça um orçamento</h2>
+        <form action="">
+            <div class="campo linha">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
+            
+            <div class="campo">
+                <label for="paginas">Qtde de Páginas</label>
+                <input type="number" id="paginas" min="1" value="1">
+            </div> 
+    
+            <div class="campo">
+                <label for="tipo">Tipo de site</label>
+                <select   select id="tipo">
+                    <option value="1" selected>Estático</option>
+                    <option value="2">Dinâmico</option>
+                </select>
+            </div>
+            
+            <div class="campo linha">
+                <label for="">Precisa de protótipo?</label>
+                <div>
+                    <input type="radio" id="prototipo_sim" name="prototipo">
+                    <label for="prototipo_sim">Sim, preciso</label>
+                    <input type="radio" id="prototipo_nao" name="prototipo">
+                    <label for="prototipo_nao">Não, já tenho</label>
+                </div>
+            </div>
+    
+            <input type="checkbox" id="js">
+            <label for="js">Tem automoção com JavaScript</label>
+    
+            <label for="prazo">Prazo</label>
+            <input type="range" id="prazo" min="1" max="12">
 
- <h1>Portfólio Pedro Salles</h1>
-<h2> Web Developer</h2>
+            <output id="valor">R$ 1000,00</output>
 
-</header>
-
-<section id="secao-apresentacao">
-
-    <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-693134468.jpg" alt="Foto do Tom Cruise, Vulgo Mancha verde till i die">
-    <div>
-
-     <h2>Um cara comum</h2>
-    <p> Thomas Cruise Mapother IV é um ator e produtor de cinema norte-americano. Em 2007 foi listado pela revista Forbes como a celebridade mais popular de 2006, venceu três Globos de Ouro e foi indicado quatro vezes ao Oscar e é responsável pelo Estúdio Cinematográfico United Artists fundado por Charlie Chaplin, torcedor fanatico do Palmeiras.</p>
-    </div>
-
-</section>
-
-<!--Comandos Html basico 
-    <span>Textto</span>
-
-<ul>
-    <li>sdfd</li>
-    <li>asdfgffg</li>
-    <li>asdfd</li>
-</ul>
-
-<ol>
-    <li>APMD</li>
-    <li>BE</li>
-    <li>ce</li>
-</ol> -->
-
-
-
-</body>
-</html>
+        </form>
+    </section>
+    </Main>
+    
+    <footer></footer>
+    </body>
+    </html>
